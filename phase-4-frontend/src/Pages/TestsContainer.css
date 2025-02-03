@@ -1,0 +1,86 @@
+.tests-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tests-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tests-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .test-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .test-details {
+    flex: 1;
+  }
+  
+  .test-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .test-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .test-actions button:hover {
+    opacity: 0.9;
+  }
+  
+  .test-actions button:first-child {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .test-actions button:last-child {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .edit-form {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-form button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .edit-form button:hover {
+    background-color: #1976d2;
+  }
